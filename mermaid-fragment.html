@@ -1,2 +1,12 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js"></script>
-<code class="mermaid">{% include_relative {{ include.source }} %}</code>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
+</script>
+<code class="mermaid">
+  {% include_relative {{ include.source }} %}
+</code>
+<small>
+  Source 
+    <a href="{{ site.github.repository_url }}/blob/master/{{ include.source }}">
+      {{ include.source }}
+    </a> 
+  file
+</small>
