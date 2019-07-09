@@ -1,4 +1,4 @@
-# This is a demo of Mermaid files usage with Github Pages and Markdown
+# A demo of mermaid lib usage with Github Pages and Markdown
 Using [`include_relative`](https://jekyllrb.com/docs/includes/) Jekyll tag this markdown includes an html fragment below referencing [mermaid-format](https://github.com/knsv/mermaid) files.
 
 ## Example:
