@@ -11,11 +11,11 @@ Using [`include_relative`](https://jekyllrb.com/docs/includes/) Jekyll tag with 
 {% include_relative mermaid-fragment.html source="mermaid/flowchart.mmd" %}
 ```
 ### Processed finale
-<code>{% include_relative mermaid-fragment.html source="mermaid/flowchart.mmd" %}</code>
+{% include_relative mermaid-fragment.html source="mermaid/flowchart.mmd" %}
 
 ## Variery of examples from the [mermaid](https://github.com/knsv/mermaid) page:
-<code>{% include_relative mermaid-fragment.html source="mermaid/sequence.mmd" %}</code>
+{% include_relative mermaid-fragment.html source="mermaid/sequence.mmd" %}
 
-<code>{% include_relative mermaid-fragment.html source="mermaid/gantt.mmd" %}</code>
+{% include_relative mermaid-fragment.html source="mermaid/gantt.mmd" %}
 
-<code>{% include_relative mermaid-fragment.html source="mermaid/class.mmd" %}</code>
+{% include_relative mermaid-fragment.html source="mermaid/class.mmd" %}
