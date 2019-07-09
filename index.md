@@ -15,7 +15,7 @@ Using [`include_relative`](https://jekyllrb.com/docs/includes/) Jekyll tag with 
 
 ## Variery of examples from the [mermaid](https://github.com/knsv/mermaid) page:
 {% include_relative mermaid-fragment.html source="mermaid/sequence.mmd" %}
-
+***
 {% include_relative mermaid-fragment.html source="mermaid/gantt.mmd" %}
-
+***
 {% include_relative mermaid-fragment.html source="mermaid/class.mmd" %}
