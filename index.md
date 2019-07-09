@@ -2,7 +2,7 @@
 Using [`include_relative`](https://jekyllrb.com/docs/includes/) Jekyll tag with Github Pages this markdown file includes an html fragment below referencing sources in the mermaid library format.
 
 ## Example:
-### Actual content using Liquid tmeplating
+### Actual content using Liquid templating
 ```Liquid
 {% raw %}{% include_relative mermaid-fragment.html source="mermaid/flowchart.mmd" %}{% endraw %}
 ```
